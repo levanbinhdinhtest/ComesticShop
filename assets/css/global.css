@@ -1,0 +1,90 @@
+.header{
+    position: relative;
+    height: 123px;
+    background: #D9D9D9;
+}
+/*css logo*/
+.header .logo{
+    width: 192px;
+    height: 73px;
+    position: absolute;
+    top: 32px;
+    left: 137px;
+}
+
+.header .logo img{
+    width: 192px;
+    height: 73px;
+    object-fit: cover;
+}
+/*css style hien thi cua cac the*/
+a{
+    text-decoration: none;
+    color: #BF6159;
+    font-size: 27px;
+}
+i{
+    color: #BF6159;
+    font-size: 27px;
+}
+
+ul{
+    list-style: none;
+}
+/*end*/
+
+/*css phan navigation*/
+nav{
+    position: absolute;
+    right: 160px;
+    top: 40px;
+}
+.header nav .menu{
+    display: flex;
+    
+}
+
+.header nav .menu .main-menu{
+    display: flex;
+    margin-right:30px ;
+}
+
+.header nav .menu .main-menu li{
+    margin-right: 70px;
+}
+.header nav .menu .option ul{
+    display: flex;
+}
+.header nav .menu .option ul li{
+    margin-right: 30px;
+    cursor: pointer;
+}
+/*end*/
+/*end*/
+
+/*Css footer*/
+.footer{
+    background:#D9D9D9;
+    padding: 40px 0 30px;
+}
+.footer .main-footer{
+    display: flex;
+    position: relative;
+}
+.footer .main-footer .information{
+    margin-left: 160px;
+}
+.footer .main-footer .contact{
+    position: absolute;
+    right: 160px;
+}
+.footer .main-footer .information p{
+    margin-bottom: 20px;
+}
+.footer .main-footer .contact p{
+    margin-bottom: 20px;
+}
+.footer .main-footer .contact i{
+    margin-bottom: 20px;
+    margin-right: 10px;
+}

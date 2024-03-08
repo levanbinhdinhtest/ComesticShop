@@ -1,0 +1,55 @@
+#wrapper{
+    /* width: 1600px; */
+    height: 100vh;
+    background: #ffff;
+}
+
+
+/*css content*/
+.wp-content{
+    display: flex;
+}
+
+.wp-content .content{
+    margin-top: 70px;
+    margin-left: 160px;
+    width: 40%;
+}
+
+.wp-content .content .title{
+    color: #BF6159;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.wp-content .content .description{
+    font-size: 24px;
+    margin-bottom: 30px
+}
+
+button{
+    width: 200px;
+    height: 62px;
+    font-size: 24px;
+    border-radius: 15px;
+    background: #BF6159;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.wp-content  .thumb{
+    width: 700px;
+    height: 750px;
+    /* -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH"; */
+}
+/*end*/
+
+
+
