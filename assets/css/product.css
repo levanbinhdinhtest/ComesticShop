@@ -1,0 +1,57 @@
+
+.wp-content h2{
+    margin-top: 30px;
+    text-align: center;
+    color: #BF6159;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.wp-content h2~h2{
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+.item{
+    width: 20%;
+    /* margin-right: 20px; */
+    margin-left: 2%;
+    margin-right: 2%;
+    cursor: pointer;
+}
+img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+.wp-content .skin-concern{
+    display: flex;
+}
+.wp-content .category{
+    display: flex;
+    margin-bottom: 100px;
+}
+.wp-content .category .item{
+
+}
+.wp-content .category .item img{
+    border-radius: 50%;
+    /* overflow: hidden; */
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+p{
+    text-align: center;
+}
+.wp-content .skin-concern .item .name-product{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.wp-content .skin-concern .item .buy-now{
+    opacity: 0.6;
+}
+.wp-content .category .item p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+    
+}
